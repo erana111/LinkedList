@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="linkedlist.js"></script>
+    </head>
+    <body>
+        <script>
+            var list = new LinkedList();
+            list.add("red");
+            list.add("orange");
+            list.add("yellow");
+            list.add("blue");
+
+
+            console.log(list.getSize());   //4
+            console.log(list.item(1));   //"orange"
+
+            list.remove(1);
+
+            console.log(list.getSize());   //3
+            console.log(list.item(1));   //"yellow"
+        </script>
+    </body>
+</html>

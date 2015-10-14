@@ -1,0 +1,1 @@
+Linked list prototype example
